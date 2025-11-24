@@ -9,7 +9,6 @@ import time
 
 adc = machine.ADC(0)
 
-fac=4*65535
 
 while True:
     # Read the raw 16-bit value from the ADC
